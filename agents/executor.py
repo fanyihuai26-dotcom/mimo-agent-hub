@@ -5,6 +5,8 @@ Executes individual steps from the planner's task decomposition.
 Supports code generation, data analysis, and content creation.
 """
 
+from __future__ import annotations
+
 import os
 from typing import Any
 

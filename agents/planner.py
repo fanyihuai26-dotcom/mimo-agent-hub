@@ -5,6 +5,8 @@ Breaks down complex tasks into structured, executable steps.
 Integrates with MiMo API for intelligent task decomposition.
 """
 
+from __future__ import annotations
+
 import os
 from typing import Any
 

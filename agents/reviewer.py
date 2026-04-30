@@ -5,6 +5,8 @@ Validates executor outputs and provides feedback for iterative refinement.
 Ensures quality through multi-criteria evaluation.
 """
 
+from __future__ import annotations
+
 import os
 from typing import Any
 
