@@ -83,18 +83,22 @@ mimo-agent-hub/
 └── README.md
 ```
 
+## 🖥️ Running
+
+![MiMo Agent Hub running](Terminal.png)
+
 ## ▶️ Quick Start
 
 ```bash
 git clone https://github.com/fanyihuai26-dotcom/mimo-agent-hub.git
 cd mimo-agent-hub
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Set your MiMo API key
 export MIMO_API_KEY="your-api-key"
 
 # Start the server
-python api/server.py
+python3 api/server.py
 ```
 
 Server runs at `http://localhost:8000` — visit `/docs` for the interactive API documentation.
